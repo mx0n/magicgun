@@ -2752,6 +2752,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 30px 0px;
 }
 
+.install-area {
+  background: #e8e8e8;
+}
+
 .footer-area {
   padding-top: 100px;
   background-color: #222222;
