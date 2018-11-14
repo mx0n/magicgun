@@ -2195,9 +2195,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .p1-gradient-bg, .primary-btn, .banner-area, .single-price:hover .price-bottom, .call-to-action-area, .single-footer-widget .click-btn, .generic-banner {
-  background-image: -moz-linear-gradient(90deg, #f45622 0%, #f53e54 100%);
-  background-image: -webkit-linear-gradient(90deg, #f45622 0%, #f53e54 100%);
-  background-image: -ms-linear-gradient(90deg, #f45622 0%, #f53e54 100%);
+  background-image: -moz-linear-gradient(90deg, #001a27 0%, #031a2c 100%);
+  background-image: -webkit-linear-gradient(90deg, #001a27 0%, #031a2c 100%);
+  background-image: -ms-linear-gradient(90deg, #001a27 0%, #031a2c 100%);
 }
 
 .p1-gradient-color, .footer-social a:hover i, .single-footer-widget .bb-btn {
@@ -2684,6 +2684,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .buttons:hover i, .buttons:hover a {
   color: #fff !important;
+}
+
+.fa-android {
+  color: #8BC34A!important;
+}
+
+.fa-apple {
+  color: #000!important;
 }
 
 .buttons a {
