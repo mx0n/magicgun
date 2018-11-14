@@ -163,7 +163,7 @@ $(document).ready(function(){
   })
 
 
-    $('.active-model-carusel').owlCarousel({
+/*     $('.active-model-carusel').owlCarousel({
         items:3,
         loop:true,
         margin:30,
@@ -186,7 +186,7 @@ $(document).ready(function(){
             }
 
         }
-    });
+    }); */
 
         $('.active-tstimonial-carusel').owlCarousel({
         items:3,
