@@ -2582,29 +2582,26 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-.course-area {
-  background: #f9f9ff;
-}
 
-.course-area .owl-controls {
+.model-area .owl-controls {
   position: absolute;
   left: 101%;
   top: 25%;
 }
 
 @media (max-width: 1024px) {
-  .course-area .owl-controls {
+  .model-area .owl-controls {
     position: relative;
     text-align: center;
     left: 0;
     top: 20px;
   }
-  .course-area .owl-controls .owl-prev, .course-area .owl-controls .owl-next {
+  .model-area .owl-controls .owl-prev, .model-area .owl-controls .owl-next {
     display: inline-block;
   }
 }
 
-.course-area .lnr-arrow-up, .course-area .lnr-arrow-down {
+.model-area .lnr-arrow-up, .model-area .lnr-arrow-down {
   background-color: white;
   box-shadow: -14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.2);
   padding: 14px;
@@ -2614,7 +2611,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-flex;
 }
 
-.single-course .sale-btn {
+.single-model .sale-btn {
   background-color: #f53f51;
   color: #fff;
   width: 140px;
@@ -2625,15 +2622,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 30px;
 }
 
-.single-course .price {
+.single-model .price {
   color: #f53f51;
 }
 
-.single-course .details {
+.single-model .details {
   padding: 5px 30px 30px 30px;
 }
 
-.single-course .details h4 {
+.single-model .details h4 {
   padding: 20px 0;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2641,7 +2638,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 0.3s ease 0s;
 }
 
-.single-course .details h4:hover {
+.single-model .details h4:hover {
   color: #f53f51;
 }
 

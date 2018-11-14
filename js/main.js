@@ -163,7 +163,7 @@ $(document).ready(function(){
   })
 
 
-    $('.active-course-carusel').owlCarousel({
+    $('.active-model-carusel').owlCarousel({
         items:3,
         loop:true,
         margin:30,
