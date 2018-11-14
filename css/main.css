@@ -51,8 +51,8 @@
 
 body {
   color: #777777;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.625em;
   position: relative;
@@ -118,7 +118,7 @@ a, a:focus, a:hover {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #222222;
   line-height: 1.2em !important;
   margin-bottom: 0;
@@ -130,7 +130,7 @@ h4, h5, h6 {
 .h4, .h5, .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
   color: #222222;
 }
@@ -1887,7 +1887,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
-  background: rgba(34, 34, 34, 0.9);
+  background: rgba(255, 255, 255, 0.9);
   transition: all 0.5s;
 }
 
@@ -2008,12 +2008,16 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 8px 0px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: #000;
   font-weight: 400;
   font-size: 12px;
   text-transform: uppercase;
   outline: none;
 }
+
+/* #header.header-scrolled .nav-menu a {
+  color: #fff;
+} */
 
 .nav-menu > li {
   margin-left: 10px;
@@ -2063,7 +2067,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav-toggle i {
-  color: #fff;
+  color: #000;
   font-weight: 900;
 }
 
@@ -2364,6 +2368,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 .info-area .info-thumb {
   overflow: hidden;
   display: inline-block;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+@media (min-width: 899px) {
+  .info-area .info-thumb {
+    width: 420px;
+    float: left;
+  }
 }
 
 @media (max-width: 800px) {
