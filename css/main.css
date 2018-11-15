@@ -2754,7 +2754,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-area {
-  padding-top: 100px;
+  padding: 60px 0;
   background-color: #222222;
 }
 
@@ -2969,4 +2969,20 @@ h6 {
 
 .switch-wrap p {
   margin: 0;
+}
+
+.slick-next:before, .slick-prev:before {
+  color: #222!important;
+}
+
+.slick-next, .slick-prev {
+  z-index: 9999!important;
+}
+
+.slick-prev {
+  left: 10px!important;
+}
+
+.slick-next {
+  right: 10px!important;
 }

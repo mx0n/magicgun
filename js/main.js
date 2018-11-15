@@ -160,56 +160,27 @@ $(document).ready(function(){
     } else {
       $('#header').removeClass('header-scrolled');
     }
-  })
+  });
+
+  $(document).ready(function(){
+    $('.carousel').slick({
+      arrows: true,
+      adaptiveHeight: true
+    });
+  });
+      
 
 
-/*     $('.active-model-carusel').owlCarousel({
-        items:3,
+/*     $('.owl-carousel').owlCarousel({
+        singleItem:true,
         loop:true,
         margin:30,
         dots: true,
         nav:true,
         navText: ["<span class='lnr lnr-arrow-up'></span>",
-        "<span class='lnr lnr-arrow-down'></span>"],        
-            responsive: {
-            0: {
-                items: 1
-            },
-            480: {
-                items: 1,
-            },
-            768: {
-                items: 2,
-            },
-            900: {
-                items: 3,
-            }
-
-        }
+        "<span class='lnr lnr-arrow-down'></span>"], 
     }); */
 
-        $('.active-tstimonial-carusel').owlCarousel({
-        items:3,
-        margin:30,
-        autoplay:true,
-        loop:true,
-        dots: true,       
-            responsive: {
-            0: {
-                items: 1
-            },
-            480: {
-                items: 1,
-            },
-            768: {
-                items: 2,
-            },
-            900: {
-                items: 3,
-            }
-
-        }
-    });
 
 
 
