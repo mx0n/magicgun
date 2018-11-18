@@ -2791,7 +2791,7 @@ h6 {
 
 @media (max-width: 991.98px) {
   .footer-social {
-    text-align: left;
+    text-align: center;
   }
 }
 
@@ -2991,7 +2991,21 @@ h6 {
   right: 10px!important;
 }
 
+@media (min-width: 1024px) {
+  .img-decrease {
+    max-width: 60%;
+  }
+/*   .download-button {
+    max-width: 640px;
+  } */
+}
+
+.app-store-button>img {
+  max-height: 64px;
+}
+
 /* .youtube {
   max-width: 560px;
   position: relative !important;
 } */
+
