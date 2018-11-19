@@ -2758,7 +2758,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-area {
-  padding: 50px 0;
+  padding: 30px 0 0 0;
   background-color: #222222;
 }
 
@@ -3034,6 +3034,10 @@ h6 {
 
 .benefits-icon img {
   max-width: 148px;
+}
+
+.vr-block img {
+  max-height: 194px;
 }
 /* .youtube {
   max-width: 560px;
