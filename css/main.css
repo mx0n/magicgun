@@ -2754,7 +2754,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .install-area {
-  background: #e8e8e8;
+  background: #eaeaea;
 }
 
 .footer-area {
@@ -2922,6 +2922,12 @@ h6 {
   .generic-banner .height {
     height: 400px;
   }
+  .img-fluid {
+    max-height: 320px;
+  }
+  .icon-os {
+    right: 0!important;
+  }
 }
 
 .generic-banner .generic-banner-content h2 {
@@ -2993,7 +2999,8 @@ h6 {
 
 @media (min-width: 1024px) {
   .img-decrease {
-    max-width: 60%;
+    width: 60%;
+    height: 100%;
   }
 /*   .download-button {
     max-width: 640px;
@@ -3004,6 +3011,29 @@ h6 {
   max-height: 64px;
 }
 
+.bluetooth img {
+  max-width: 112px;
+}
+
+.bluetooth p {
+  display: inline-block;
+}
+
+.icon-os {
+  position: absolute;
+  width: 124px;
+  display: block;
+  bottom: 0;
+  right: 30%;
+}
+
+.text-red {
+  color: #f53e54;
+}
+
+.benefits-icon img {
+  max-width: 148px;
+}
 /* .youtube {
   max-width: 560px;
   position: relative !important;
