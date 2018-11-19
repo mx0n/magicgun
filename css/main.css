@@ -3013,6 +3013,7 @@ h6 {
 
 .bluetooth img {
   max-width: 112px;
+  float: left;
 }
 
 .bluetooth p {
