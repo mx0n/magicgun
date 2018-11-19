@@ -3012,12 +3012,8 @@ h6 {
 }
 
 .bluetooth img {
-  max-width: 112px;
+  max-width: 98px;
   float: left;
-}
-
-.bluetooth p {
-  display: inline-block;
 }
 
 .icon-os {
